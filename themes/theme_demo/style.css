@@ -1,0 +1,28 @@
+/*
+Theme Name:     Theme_Demo
+Description:    
+Author:         root
+Template:       blask-wpcom-1-1-2/blask-wpcom
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+.site-branding{
+    border-radius: 80%;
+    width: 250px;
+}
+.nav-menu > li{
+    position: relative;
+
+}
+.nav-menu > li:hover{
+    background-color: #3B5998;
+}
+.nav-menu > li a{
+    position: relative;
+    left: 10px;
+    transition: all .5s ease;
+}
+.nav-menu > li:hover a{
+    left: 30px;
+    color:wheat;
+}
